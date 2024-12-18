@@ -9,7 +9,7 @@ type DocumentHitsItemProps = ResultFormattedTextProps & {
    * The value that represents and differentiates this item amongst a
    * collection of items.
    */
-  value: string; // TODO rename to itemIndex and make type `number`?
+  value: string;
 };
 
 export function DocumentHitsSelectItem({

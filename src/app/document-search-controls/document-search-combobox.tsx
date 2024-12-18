@@ -72,7 +72,7 @@ export function DocumentSearchCombobox({
               className="h-8 w-full rounded-xl border-gray-300 pl-10 text-sm leading-none"
             />
           </div>
-          // TODO We need some buttons to navigate the list!!
+          // Not implemented: We need some buttons to navigate the list!!
         </div>
         <ComboboxList
           alwaysVisible

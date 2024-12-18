@@ -9,8 +9,6 @@ export type DocumentHitsSelectProps = {
   onSelectIndex: (index: number) => void;
 };
 
-// TODO Unify this with DocumentSearchCombobox so we have one component that
-// is able to list search results (potentially with a combobox).
 export function DocumentHitsSelect({
   searching,
   selectedIndex,

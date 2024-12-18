@@ -113,7 +113,6 @@ export function useApryseSearch({
     isDocumentLoaded(webViewerInstance)
   );
 
-  // TODO likely useful to be done in the provider
   useEffect(() => {
     if (!webViewerInstance) return;
 
@@ -190,7 +189,7 @@ export function useApryseSearch({
     results,
     selectedIndex,
     onSelectIndex: (index: number) => {
-      console.log("TODO Something should happen on selection!!");
+      console.log("Not implemented: Something should happen on selection!!");
     },
   };
 }

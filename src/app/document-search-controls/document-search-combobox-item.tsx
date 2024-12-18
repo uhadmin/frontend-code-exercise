@@ -5,7 +5,7 @@ import {
 } from "./result-formatted-text";
 
 export type DocumentSearchComboboxItemProps = ResultFormattedTextProps & {
-  value: string; // TODO rename to itemIndex and make type `number`?
+  value: string;
 };
 
 export function DocumentSearchComboboxItem({

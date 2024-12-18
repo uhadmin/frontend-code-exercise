@@ -26,7 +26,7 @@ export function ApryseDocumentSearch() {
       onSearch={setSearchValue}
       onSelectIndex={apryseSearch.onSelectIndex}
     >
-      TODO: Put a list here!!
+      Not implemented: Put a list here!!
     </DocumentSearchCombobox>
   );
 }
